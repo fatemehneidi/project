@@ -87,3 +87,67 @@
 <input type="text" id="list-family-members" name="list-family-members">
 
 <h2>Medication History</h2>
+
+<label for="current-medications">Are you currently taking any medications related to Parkinson's disease or symptom management?</label>
+<select id="current-medications" name="current-medications">
+ <option value="yes">Yes</option>
+ <option value="no">No</option>
+</select>
+
+<label for="list-medications">If yes, please list the medications and their dosages:</label>
+<input type="text" id="list-medications" name="list-medications">
+
+<h2>Physical Examination</h2>
+
+<p>Please complete a brief physical examination to assess any changes in your symptoms:</p>
+
+<label for="shaking">Unusual shaking, trembling, or rigidity in the hands or feet:</label>
+<select id="shaking" name="shaking">
+ <option value="yes">Yes</option>
+ <option value="no">No</option>
+</select>
+
+
+<label for="other-symptoms">Please note any other symptoms you may be experiencing:</label>
+<input type="text" id="other-symptoms" name="other-symptoms">
+
+<h2>Lifestyle Questions</h2>
+
+<label for="diet">How would you describe your overall diet?</label>
+<input type="text" id="diet" name="diet">
+
+<label for="exercise">Do you exercise regularly?</label>
+<select id="exercise" name="exercise">
+ <option value="yes">Yes</option>
+ <option value="no">No</option>
+</select>
+
+<label for="exercise-types">If yes, what types of exercise do you typically perform?</label>
+<input type="text" id="exercise-types" name="exercise-types">
+
+<label for="sleep">How much sleep do you typically get per night?</label>
+<input type="number" id="sleep" name="sleep" min="1"> hours
+
+<label for="smoking">Do you smoke or use tobacco products?</label>
+
+
+<h2>Parkinson's Pill Dosage</h2>
+
+<section id="table">
+
+<table border="2px">
+    <thead>
+ <tr>
+    <th rowspan="2">Pill Name</th>
+    <th colspan="3">Dosage</th>
+    <th rowspan="2">Description</th>
+    <th rowspan="2">Starting Date</th>
+    <th rowspan="2">Adverse Effects</th>
+    <th rowspan="2">Potential Interactions</th>
+ </tr>
+ <tr>
+    <th>Initial Dosage</th>
+    <th>Dosage Increments</th>
+    <th>Final Dosage</th>
+ </tr>
+ </thead>
